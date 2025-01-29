@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Visiting Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .card {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .card h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+        .card p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #666;
+        }
+        .qr-code {
+            margin-top: 20px;
+        }
+        .qr-code img {
+            width: 150px;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Your Name</h1>
+        <p>Your Title</p>
+        <p>Your Company</p>
+        <p>Email: your.email@example.com</p>
+        <p>Phone: +123 456 7890</p>
+        <div class="qr-code">
+            <img src="path-to-your-qr-code.png" alt="QR Code">
+        </div>
+    </div>
+</body>
+</html>
